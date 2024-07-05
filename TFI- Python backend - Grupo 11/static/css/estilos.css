@@ -1,0 +1,158 @@
+/* Estilos para todo el proyecto */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url(../imagenes/fondolog.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+.logo{
+        font-family: "Bungee Spice", sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #ffd200;
+}
+
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo-centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 120px;
+}
+
+.navbar-index{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(225deg, #896c29 0, #8d6524 7.14%, #905d20 14.29%, #92541d 21.43%, #934a1b 28.57%, #933d1a 35.71%, #922f1a 42.86%, #901b1b 50%, #8d001d 57.14%, #8a0021 64.29%, #860027 71.43%, #81002d 78.57%, #7b0035 85.71%, #75003d 92.86%, #6c0047 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: fixed !important;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo-nav{
+    height: 80%;
+    overflow: hidden;
+    margin-left: 1em;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6cece;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+table {
+    height: 300px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6cece;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 8px;
+    margin:4px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    padding: 8px;
+    margin:4px;
+    background-color: #7c0808;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+    font-weight: 800;
+}
+
+a:hover {
+    background-color: #b34200;
+    color:#fdab13
+}
+
